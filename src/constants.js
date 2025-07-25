@@ -40,6 +40,7 @@ import svmLogo from './assets/education_logo/svm_logo.png';
 
 // Project Section Logo's
 import portfolioLogo from './assets/work_logo/portfolio.png';
+import bookLogo from './assets/work_logo/book.png';
 import tourLogo from './assets/work_logo/tour.png';
 import notesLogo from './assets/work_logo/notes.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
@@ -148,8 +149,14 @@ export const SkillsInfo = [
         "A simple and efficient notes management application built to help users create, edit, delete, categorize, and mark notes as important. Designed with a clean user interface for ease of use, it ensures quick note-taking and effective organization. The app also includes user authentication to keep notes private and accessible only to the logged-in user.",
       image: notesLogo,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    },
+        {
+      id: 3,
+      title: "Book Library",
+      description:
+        "A web-based book library built using HTML and JavaScript that fetches book data from an external API and displays it dynamically. The app retrieves and shows book details like title, author, and cover image in a clean interface, providing users with an easy way to browse available books.",
+      image: bookLogo,
+      tags: [ "API", "HTML", "BOOTSTRAP CSS", "JavaScript"],
     },
     
   ];  
